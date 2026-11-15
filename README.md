@@ -11,7 +11,7 @@ il testo viene unito nell'ordine di caricamento e salvato in un unico MP3.
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
-streamlit run app.py
+streamlit run pdf2wav.py
 ```
 
 La sintesi usa Microsoft Edge TTS e richiede Internet. Il testo dei PDF viene
